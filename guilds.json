@@ -1,0 +1,43 @@
+[
+	{
+		"name": "example",
+		"symbol": "E",
+		"color": "gold",
+		"maxLevel": 10,
+		"levelups": [
+			{
+				"varname": "Emerald_money",
+				"cost": 10,
+				"step": 0
+			},
+			{
+				"varname": "ExpBottle",
+				"cost": 10,
+				"step": 1
+			}
+		],
+		"effects": [
+			{
+				"name": "glowing",
+				"morning": false,
+				"levels": [
+					{
+						"value": 1,
+						"range": "[]"
+					}
+				]
+			}
+		],
+		"variables": [
+			{
+				"varname": "E_Test",
+				"values": [
+					{
+						"value": 1,
+						"range": "[0, 1]"
+					}
+				]
+			}
+		]
+	}
+]
